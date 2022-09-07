@@ -2,7 +2,7 @@
   "expo": {
     "name": "Afásicos Brasil",
     "slug": "afasicosbrasil",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "icon": "./assets/icon.png",
     "assetBundlePatterns": [
       "**/*"
@@ -15,10 +15,12 @@
       "image": "./assets/splash.png",
       "backgroundColor": "#104F1E"
     },
-    "platforms": ["android"],
+    "platforms": [
+      "android"
+    ],
     "android": {
       "package": "com.rogeriosilva.afasicosbrasil",
-      "versionCode": 6,
+      "versionCode": 19,
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#104F1E"
@@ -29,6 +31,11 @@
         "android.permission.READ_PHONE_STATE",
         "android.permission.READ_CONTACTS"
       ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "45d3c9c1-d04f-486e-aee3-91578c71c157"
+      }
     }
   }
 }

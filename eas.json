@@ -1,0 +1,29 @@
+{
+  "cli": {
+    "version": ">= 1.2.0"
+  },
+  "build": {
+    "development": {
+      "distribution": "store",
+      "android": {
+        "gradleCommand": ":app:assembleDebug",
+        "autoIncrement": "versionCode"
+      },
+      "ios": {
+        "buildConfiguration": "Debug"
+      }
+    },
+    "preview": {
+      "distribution": "store"
+    },
+    "production": {
+      "distribution": "store",
+      "android": {
+        "autoIncrement": "versionCode"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

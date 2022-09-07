@@ -1,4 +1,4 @@
-package com.afasiabrasil;
+package com.rogeriosilva.afasicosbrasil;
 
 import android.os.Bundle;
 
