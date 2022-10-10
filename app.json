@@ -4,9 +4,8 @@
     "slug": "afasicosbrasil",
     "version": "2.0.0",
     "icon": "./assets/icon.png",
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "owner": "afasicos-brasil",
+    "assetBundlePatterns": ["**/*"],
     "androidStatusBar": {
       "backgroundColor": "#104F1E",
       "barStyle": "light-content"
@@ -15,12 +14,10 @@
       "image": "./assets/splash.png",
       "backgroundColor": "#104F1E"
     },
-    "platforms": [
-      "android"
-    ],
+    "platforms": ["android"],
     "android": {
       "package": "com.rogeriosilva.afasicosbrasil",
-      "versionCode": 19,
+      "versionCode": 23,
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#104F1E"
